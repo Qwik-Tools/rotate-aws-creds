@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install dependencies
+pip3 install boto3 configparser
+
 # Create necessary directories
 sudo mkdir -p /usr/local/aws-rotation
 sudo mkdir -p /var/log/aws-rotation
